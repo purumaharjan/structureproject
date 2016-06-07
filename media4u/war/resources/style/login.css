@@ -1,0 +1,33 @@
+#content{
+	width:310px;
+	height:120px;
+	background-color:#6FF;
+	
+	padding:20px;
+}
+
+.userName{
+	margin-bottom: 10px;
+}
+
+.userPassword{
+	margin-bottom: 10px;
+}
+
+.userCheckBox{
+	margin-bottom: 10px;
+	margin-left: 68px;
+}
+
+.label{
+	margin-right: 5px;
+}
+	
+.textbox{
+	width:170px;
+}
+
+.loginButton{
+	margin-left: 70px;
+	
+}

@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:p="http://www.springframework.org/schema/p"
+	xmlns:context="http://www.springframework.org/schema/context"
+	xsi:schemaLocation="http://www.springframework.org/schema/beans
+		http://www.springframework.org/schema/beans/spring-beans-3.0.xsd
+		http://www.springframework.org/schema/context
+		http://www.springframework.org/schema/context/spring-context-3.0.xsd">
+
+	<bean id="abstractDao" class="com.project.media4u.server.dao.base.AbstractDao">
+		<constructor-arg ref="jpaTemplate" />
+	</bean>
+	
+	<bean id="userLocationDao" class="com.project.media4u.server.dao.impl.UserLocationDaoImpl" parent="abstractDao" />
+	
+</beans>
