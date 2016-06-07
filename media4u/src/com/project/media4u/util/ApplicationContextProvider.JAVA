@@ -7,6 +7,7 @@ public class ApplicationContextProvider implements ApplicationContextAware {
 	
 	public static ApplicationContext getApplicationContext() {
 		return applicationContext;
+///here is the appliction context
 	}
 
 	@Override
